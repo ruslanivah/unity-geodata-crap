@@ -45,8 +45,8 @@
           <e p="SphericalCoordinates.cs" t="Include" />
           <e p="Tilemaps" t="Include">
             <e p="TileMapManager.cs" t="Include" />
+            <e p="TilemapRenderer.cs" t="Include" />
             <e p="TileServers.cs" t="Include" />
-            <e p="WebmapTile.cs" t="Include" />
             <e p="WebTileHelper.cs" t="Include" />
           </e>
         </e>

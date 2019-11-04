@@ -20,10 +20,10 @@ public class TileMapManager : MonoBehaviour
   string XMLString;
   public string DataURL;
   Vector3 Origin;
-  WebmapTile _tilemapdata;
+  TilemapRenderer _tilemapdata;
   Vector2 _originID = new Vector2();
-  List<WebmapTile> _tileList = new List<WebmapTile>();
-  List<WebmapTile> _textureDownloadQueue = new List<WebmapTile>();
+  List<TilemapRenderer> _tileList = new List<TilemapRenderer>();
+  List<TilemapRenderer> _textureDownloadQueue = new List<TilemapRenderer>();
   public int TextureDownloadQueueSize = 5;
   int _textureCounter = 0;
 
@@ -78,7 +78,7 @@ public class TileMapManager : MonoBehaviour
     Debug.Log("west is" + LowerLeft.West);
     */
 
-    DataURL = TileServers.ConstructDataURL(LowerLeft.South, LowerLeft.West, UpperRight.North, UpperRight.East);
+    //DataURL = TileServers.ConstructDataURL(LowerLeft.South, LowerLeft.West, UpperRight.North, UpperRight.East);
 
     if (UseVectorData == true)
     {
@@ -90,7 +90,7 @@ public class TileMapManager : MonoBehaviour
   void SpawnTile(int x, int y, int zoom, bool useVector, bool useTileMap)
   {
     var tile = Instantiate(MapPrefab, transform) as GameObject;
-    var data = tile.GetComponent<WebmapTile>();
+    var data = tile.GetComponent<TilemapRenderer>();
     _tileList.Add(data);
     data.InitializeTile(x, y, _zoomLevel, Origin);
     tile.name = data.Name;

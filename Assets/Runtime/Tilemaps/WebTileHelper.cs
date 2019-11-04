@@ -4,7 +4,7 @@ using System;
 
 public static class WebTileHelper
 {
-  public class BoundingBox
+  public struct BoundingBox
   {
     public double North;
     public double West;
@@ -12,6 +12,12 @@ public static class WebTileHelper
     public double East;
   }
 
+  /// <summary>
+  /// Converts a WGS84 longitude in decimal degrees to an X coordinate of a webmap tile at a given zoom level.
+  /// </summary>
+  /// <param name="lon">Longitude inn WGS84 notation</param>
+  /// <param name="z">Zoom level</param>
+  /// <returns></returns>
   public static int Longitude2TileX(double lon, int z)
   {
     return (int) (Math.Floor((lon + 180.0) / 360.0 * Math.Pow(2.0, z)));
@@ -23,6 +29,7 @@ public static class WebTileHelper
       (1.0 - Math.Log(Math.Tan(lat * Mathf.PI / 180.0) + 1.0 / Math.Cos(lat * Mathf.PI / 180.0)) / Mathf.PI) / 2.0 *
       Math.Pow(2.0, z)));
   }
+
 
   public static double Tile2Lon(int x, int z)
   {
