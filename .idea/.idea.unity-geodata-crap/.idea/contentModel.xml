@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Content" t="Include">
+          <e p="Geodata" t="Include">
+            <e p="Data" t="Include">
+              <e p="LDAM_8_FLOAT.txt" t="Include" />
+              <e p="LDEM_16_FLOAT.txt" t="Include" />
+              <e p="LDEM_4_FLOAT.txt" t="Include" />
+            </e>
+          </e>
+          <e p="HDRP" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="SimpleCameraController.cs" t="Include" />
+            </e>
+            <e p="TutorialInfo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="CraterEditor.cs" t="Include" />
+          <e p="GlobeEditor.cs" t="Include" />
+          <e p="Lucy.Geodata" t="Include" />
+          <e p="PDSReaderEditor.cs" t="Include" />
+        </e>
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Runtime" t="Include">
+          <e p="CraterReader.cs" t="Include" />
+          <e p="GlobeTest.cs" t="Include" />
+          <e p="Lucy.Geodata.Runtime.asmdef" t="Include" />
+          <e p="PDSData.cs" t="Include" />
+          <e p="PDSReader.cs" t="Include" />
+          <e p="SphereMeshGenerator.cs" t="Include" />
+          <e p="SphericalCoordinates.cs" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="LDAM_8_FLOAT.txt" t="Include" />
+          <e p="LDEM_16_FLOAT.txt" t="Include" />
+          <e p="LDEM_4_FLOAT.txt" t="Include" />
+        </e>
+      </e>
+      <e p="Dependencies" t="Include">
+        <e p="unity-common" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Public" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Blender" t="Include">
+                  <e p="BlenderAssetPostprocessor.cs" t="Include" />
+                </e>
+                <e p="Lucy.Common.Editor.asmdef" t="Include" />
+                <e p="Setup" t="Include">
+                  <e p="Setup.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Model" t="Include">
+                <e p="Lucy.Common.Model.asmdef" t="Include" />
+                <e p="Networking" t="Include">
+                  <e p="Config" t="Include">
+                    <e p="NetworkConfiguration.cs" t="Include" />
+                  </e>
+                  <e p="InternetProtocol" t="Include">
+                    <e p="InternetProtocol.cs" t="Include" />
+                  </e>
+                  <e p="Messages" t="Include">
+                    <e p="Net_CreateAccount.cs" t="Include" />
+                    <e p="Net_KinectTransport.cs" t="Include" />
+                    <e p="NetMessage.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Triangulation" t="Include">
+                  <e p="Triangulator.cs" t="Include" />
+                </e>
+                <e p="Utility" t="Include">
+                  <e p="FileUtility.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Camera" t="Include">
+                  <e p="DebugCameraControls.cs" t="Include" />
+                  <e p="TopDownCamera.cs" t="Include" />
+                </e>
+                <e p="Debug" t="Include">
+                  <e p="DrawArrow.cs" t="Include" />
+                  <e p="Drawing.cs" t="Include" />
+                </e>
+                <e p="GLWireframe" t="Include">
+                  <e p="GLMeshRenderer.cs" t="Include" />
+                  <e p="GLVolumeRenderer.cs" t="Include" />
+                  <e p="GLWireframeRenderer.cs" t="Include" />
+                </e>
+                <e p="GPS" t="Include">
+                  <e p="GPS.cs" t="Include" />
+                </e>
+                <e p="Lucy.Common.asmdef" t="Include" />
+                <e p="Movement" t="Include">
+                  <e p="ObjectBouncer.cs" t="Include" />
+                  <e p="ObjectRotator.cs" t="Include" />
+                </e>
+                <e p="Networking" t="Include">
+                  <e p="IPAddress" t="Include">
+                    <e p="IPAddressInput.cs" t="Include" />
+                  </e>
+                  <e p="Utility" t="Include">
+                    <e p="IP.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Rendering" t="Include">
+                  <e p="SequenceRender.cs" t="Include" />
+                </e>
+                <e p="Triangulation" t="Include">
+                  <e p="PolygonTester.cs" t="Include" />
+                </e>
+                <e p="UI" t="Include">
+                  <e p="Animate.cs" t="Include" />
+                  <e p="CoroutineWorker.cs" t="Include" />
+                  <e p="RectTransformExtensions.cs" t="Include" />
+                  <e p="UIController.cs" t="Include" />
+                  <e p="UILibrary.cs" t="Include" />
+                  <e p="UITransition.cs" t="Include" />
+                  <e p="UIViewController.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Editor.asmdef" t="Include" />
+      <e p="Lucy.Common.Editor.csproj" t="IncludeRecursive" />
+      <e p="Lucy.Common.Model.csproj" t="IncludeRecursive" />
+      <e p="Lucy.Common.Runtime.csproj" t="IncludeRecursive" />
+      <e p="Lucy.Geodata.Runtime.csproj" t="IncludeRecursive" />
+      <e p="Lucy.Geodata;Editor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="unity-geodata-crap.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_unity-geodata-crap.1559384331.00" t="ExcludeRecursive" />
+  </component>
+</project>

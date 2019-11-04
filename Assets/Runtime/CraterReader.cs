@@ -125,7 +125,7 @@ public class CraterReader : MonoBehaviour
   }
 
 
-  void OnDrawGizmos()
+  void OnDrawGizmosSelected()
   {
     if (CraterList != null)
     {
